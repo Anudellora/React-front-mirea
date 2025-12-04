@@ -1,0 +1,126 @@
+.technology-list-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .page-header h1 {
+    margin: 0;
+    color: #333;
+  }
+  
+  .technologies-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 25px;
+  }
+  
+  .technology-item {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    border-left: 4px solid #e0e0e0;
+  }
+  
+  .technology-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .technology-item.status-not-started {
+    border-left-color: #ff6b6b;
+  }
+  
+  .technology-item.status-in-progress {
+    border-left-color: #4ecdc4;
+  }
+  
+  .technology-item.status-completed {
+    border-left-color: #45b7d1;
+  }
+  
+  .technology-item h3 {
+    margin: 0 0 12px 0;
+    color: #333;
+    font-size: 1.3em;
+  }
+  
+  .tech-description {
+    color: #666;
+    margin-bottom: 20px;
+    line-height: 1.5;
+  }
+  
+  .technology-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+  }
+  
+  .status-badge {
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 0.85em;
+    font-weight: 600;
+    color: white;
+  }
+  
+  .status-badge.status-not-started {
+    background-color: #ff6b6b;
+  }
+  
+  .status-badge.status-in-progress {
+    background-color: #4ecdc4;
+  }
+  
+  .status-badge.status-completed {
+    background-color: #45b7d1;
+  }
+  
+  .btn-link {
+    color: #667eea;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.2s ease;
+  }
+  
+  .btn-link:hover {
+    color: #5568d3;
+  }
+  
+  .empty-state {
+    text-align: center;
+    padding: 80px 20px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .empty-icon {
+    font-size: 5em;
+    margin-bottom: 20px;
+  }
+  
+  .empty-state h2 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .empty-state p {
+    color: #666;
+    margin-bottom: 30px;
+    font-size: 1.1em;
+  }
+  

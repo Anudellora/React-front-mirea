@@ -1,0 +1,167 @@
+.technology-detail-page {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .detail-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .back-link {
+    color: #667eea;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1em;
+    transition: color 0.2s ease;
+  }
+  
+  .back-link:hover {
+    color: #5568d3;
+  }
+  
+  .btn-delete {
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.3s ease;
+  }
+  
+  .btn-delete:hover {
+    background-color: #ee5a52;
+    transform: translateY(-2px);
+  }
+  
+  .detail-content {
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .detail-content h1 {
+    margin: 0 0 15px 0;
+    color: #333;
+    font-size: 2.5em;
+  }
+  
+  .detail-description {
+    color: #666;
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #f0f0f0;
+  }
+  
+  .detail-section {
+    margin: 40px 0;
+  }
+  
+  .detail-section h3 {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+  }
+  
+  .status-buttons {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+  
+  .status-btn {
+    padding: 12px 24px;
+    border: 2px solid #e0e0e0;
+    background: white;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    color: #666;
+  }
+  
+  .status-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .status-btn.active {
+    color: white;
+    border-color: transparent;
+  }
+  
+  .status-btn.status-not-started.active {
+    background-color: #ff6b6b;
+  }
+  
+  .status-btn.status-in-progress.active {
+    background-color: #4ecdc4;
+  }
+  
+  .status-btn.status-completed.active {
+    background-color: #45b7d1;
+  }
+  
+  .notes-textarea {
+    width: 100%;
+    padding: 15px;
+    border: 2px solid #e0e0e0;
+    border-radius: 10px;
+    font-family: inherit;
+    font-size: 1em;
+    resize: vertical;
+    transition: border-color 0.3s ease;
+    box-sizing: border-box;
+    color: #000;
+    background-color: #fff;
+  }
+  
+  .notes-textarea:focus {
+    outline: none;
+    border-color: #667eea;
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+  }
+  
+  .notes-hint {
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #999;
+    font-style: italic;
+  }
+  
+  .category-badge {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #667eea;
+    color: white;
+    border-radius: 8px;
+    font-weight: 600;
+  }
+  
+  .not-found {
+    text-align: center;
+    padding: 80px 20px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .not-found h1 {
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .not-found p {
+    color: #666;
+    font-size: 1.1em;
+    margin-bottom: 30px;
+  }
+  

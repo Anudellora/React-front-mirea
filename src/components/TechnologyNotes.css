@@ -1,0 +1,87 @@
+.notes-section {
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px solid #e0e0e0;
+  }
+  
+  .notes-section h4 {
+    margin: 0 0 10px 0;
+    color: #555;
+    font-size: 0.95em;
+    font-weight: 600;
+  }
+  
+  .notes-section textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    font-family: inherit;
+    font-size: 0.9em;
+    resize: vertical;
+    transition: border-color 0.3s ease;
+    box-sizing: border-box;
+  }
+  
+  .notes-section textarea:focus {
+    outline: none;
+    border-color: #667eea;
+    background-color: #fafafa;
+  }
+  
+  .notes-section textarea::placeholder {
+    color: #999;
+  }
+  
+  .notes-hint {
+    margin-top: 5px;
+    font-size: 0.85em;
+    color: #666;
+    font-style: italic;
+  }
+  
+  .notes-section {
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px solid #e0e0e0;
+  }
+  
+  .notes-section h4 {
+    margin: 0 0 10px 0;
+    color: #555;
+    font-size: 0.95em;
+    font-weight: 600;
+  }
+  
+  .notes-section textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    font-family: inherit;
+    font-size: 0.9em;
+    resize: vertical;
+    transition: border-color 0.3s ease;
+    box-sizing: border-box;
+    color: #000000; /* Черный цвет текста */
+    background-color: #ffffff; /* Белый фон */
+  }
+  
+  .notes-section textarea:focus {
+    outline: none;
+    border-color: #667eea;
+    background-color: #fafafa;
+    color: #000000; /* Черный цвет при фокусе */
+  }
+  
+  .notes-section textarea::placeholder {
+    color: #999;
+  }
+  
+  .notes-hint {
+    margin-top: 5px;
+    font-size: 0.85em;
+    color: #666;
+    font-style: italic;
+  }
+  
